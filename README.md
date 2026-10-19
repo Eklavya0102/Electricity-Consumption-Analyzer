@@ -25,25 +25,8 @@ Python 3.10+ recommended.
 ## Setup (Windows PowerShell or Command Prompt)
 
 1. Open a terminal in this project folder.
-2. Create a virtual environment (optional but recommended):
 
-   ```bash
-   python -m venv .venv
-   ```
-
-3. Activate it:
-
-   PowerShell:
-   ```powershell
-   .\.venv\Scripts\Activate.ps1
-   ```
-
-   Command Prompt:
-   ```bat
-   .venv\Scripts\activate.bat
-   ```
-
-4. Install the dependency:
+2. Install the dependency:
 
    ```bash
    python -m pip install -r requirements.txt
