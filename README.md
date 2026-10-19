@@ -9,9 +9,9 @@ A small Python application demonstrating:
 
 ## Files
 
-- `client.py` — sends the sample dataset and displays the report.
-- `server.py` — accepts TCP requests and returns analysis as JSON.
-- `analyzer.py` — validation, FSM, functional processing, and SymPy formulas.
+- `client.py` — sends the sample dataset and displays the report
+- `server.py` — accepts TCP requests and returns analysis as JSON
+- `analyzer.py` — validation, FSM, functional processing, and SymPy formulas
 - `test_analyzer.py` — 15 automated tests (analysis, validation, FSM, SymPy, TCP client–server). No manually started server is needed.
 - `test_report.py` — detailed formatted test report for demonstration.
 - `TEST_RESULTS.txt` — recorded output of `python -m unittest -v test_analyzer.py`.
